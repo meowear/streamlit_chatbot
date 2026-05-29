@@ -28,7 +28,7 @@ with st.form("my_form"):
         "What are the three key pieces of advice for learning how to code?",
     )
     submitted = st.form_submit_button("Submit")
-    
+    #yes
     try: 
         if gemini_api_key:
             if not gemini_api_key.startswith("AIzaSy"):
